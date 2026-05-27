@@ -1,4 +1,8 @@
-# ⚒️ ForgeX v3.2.0-open-source
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
+![UI](https://img.shields.io/badge/UI-Gradio-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
+![Status](https://img.shields.io/badge/Status-Open%20Source-brightgreen.svg)# ⚒️ ForgeX v3.2.0-open-source
 
 **中文** | [English](#english)
 
@@ -192,14 +196,3 @@ ForgeX/
 - Do not commit API keys, private datasets, generated model weights, or commercial license files.
 
 ## Pre-release Checklist
-
-- [x] Obfuscated core modules converted to readable source.
-- [x] Removed `license.key`.
-- [x] Removed large `train_*.jsonl` data.
-- [x] Removed logs, temp files, and local model caches.
-- [x] Added `.gitignore`, `LICENSE`, contribution guide, security notes, architecture docs, and sample data.
-- [x] Static `python -m py_compile` check passed.
-
-## License
-
-This prepared open-source package uses the **MIT License** by default. Replace `LICENSE` before release if you prefer Apache-2.0, GPL-3.0, or a commercial license.
