@@ -1,0 +1,35 @@
+# ForgeX portable runtime constraints - UI startup compatibility lock
+#
+# Reason: gradio 4.44.1 breaks at the homepage when pip resolves it with
+# fastapi 0.136.x + starlette 1.x. Keep the UI server stack on the last
+# compatible 0.x Starlette line so the app can open on a fresh Windows install.
+
+gradio==4.44.1
+gradio-client==1.3.0
+fastapi==0.112.4
+starlette==0.38.6
+uvicorn>=0.30.0,<0.49.0
+jinja2>=3.1.0,<4.0.0
+MarkupSafe>=2.1.0,<3.1.0
+pydantic>=2.0.0,<3.0.0
+python-multipart>=0.0.9
+
+accelerate>=1.0.0
+peft>=0.14.0
+trl>=0.12.0
+datasets>=3.0.0
+huggingface_hub>=0.25.0,<1.0.0
+safetensors>=0.4.0
+tokenizers>=0.20.0
+numpy>=1.26.0
+pandas
+PyYAML
+Pillow
+rich
+packaging
+sympy
+mpmath
+typing-extensions
+filelock
+networkx
+fsspec

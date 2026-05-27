@@ -1,0 +1,23 @@
+server_host: 127.0.0.1
+server_port: 7860
+share: false
+hf_endpoint: https://huggingface.co
+hf_mirror: https://hf-mirror.com
+use_mirror: false
+oobabooga_dir: ''
+mergekit_path: mergekit-yaml
+default_base_model: ''
+train_defaults:
+  rank: 64
+  alpha: 128
+  epochs: 3
+  batch_size: 4
+  lr: 0.0002
+  max_seq_length: 2048
+  q_lora: true
+  gradient_accumulation_steps: 4
+  warmup_steps: 100
+  logging_steps: 10
+  save_steps: 500
+default_device: auto
+max_memory_mb: 0

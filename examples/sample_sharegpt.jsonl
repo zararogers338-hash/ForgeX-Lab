@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"ForgeX 可以做什么？"},{"role":"assistant","content":"ForgeX 可以管理数据集、训练 LoRA、进行 API 教师蒸馏、编辑模型配置并导出 GGUF/Ollama 模型。"}]}
+{"messages":[{"role":"user","content":"What can ForgeX do?"},{"role":"assistant","content":"ForgeX can manage datasets, train LoRA adapters, perform API teacher distillation, edit model profiles, and export GGUF/Ollama models."}]}
